@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h3 class="header">Library</h3>
+        <button class="loginBtn">Log in</button>
+    </nav>
+    <div class="container">
+        <button class="bookBtn">+ Add book</button>
+        <div class="list">
+
+        </div>
+        <form action="/nowhere" class="form">
+         <label for="title"> Title: <input type="text" class="title"></label>
+         <label for="Author"> Author: <input type="text" class="author"></label>
+         <label for="Page"> Page: <input type="number" class="pages"></label>
+         <label for="Read" class="read"> Read yet? <select name="Read" id="Read">
+            <option value="Read">Read</option>
+            <option value="Not Read">Not Read</option>
+        </select>
+         </label>
+        <button class="addBtn">Add</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
