@@ -39,21 +39,28 @@ size: 50px;
 }
 
 .bookBtn {
-    
+    padding: 15px 15px 15px 15px;
     border: none;
     font-size: 20px;
     padding: 10px 25px;
 }
 
+
 .list {
-    height: 200px;
-    display:grid;
+    padding: 15px 15px 15px 15px;
+    display: flex !important;
+    align-items: stretch;
+justify-content: start;
+flex-direction: row;
+flex-wrap: wrap;
+    /* height: 200px;
+    display:flex;
    flex-direction: column;
 justify-items: center;
 align-content: space-around;
-   
+   align-items: self-start;
    padding: 15px 15px 15px 15px;
-   border-radius: 10px;
+   border-radius: 10px; */
 }
 
 .form {
@@ -67,13 +74,28 @@ align-content: space-around;
    border-radius: 10px;
 }
 
-.addBtn {
+.addBtn{
     border: none;
     font-size: 15px;
     padding: 5px 15px;
     margin-right: 80px;
 }
 
+.remove-btn, .toggle-read-btn {
+    border: .1px solid black;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+
 .read {
     margin-right: 50px;
+}
+
+.book-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    margin:10px 0px 0px 10px ;
+    display: flex;
+    align-items:flex-start ;
 }

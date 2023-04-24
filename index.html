@@ -17,22 +17,20 @@
     </nav>
     <div class="container">
         <button class="bookBtn">+ Add book</button>
-        <div class="list">
-
-        </div>
+       
         <form action="/nowhere" class="form">
-         <label for="title"> Title: <input type="text" class="title"></label>
-         <label for="Author"> Author: <input type="text" class="author"></label>
-         <label for="Page"> Page: <input type="number" class="pages"></label>
-         <label for="Read" class="read"> Read yet? <select name="Read" id="Read">
-            <option value="Read">Read</option>
-            <option value="Not Read">Not Read</option>
-        </select>
-         </label>
-        <button class="addBtn">Add</button>
+         <label for="title"> Title: <input type="text"id="title"></label>
+         <label for="Author"> Author: <input type="text" id="author"></label>
+         <label for="Page"> Page: <input type="number" id="pages"></label>
+         <label for="read"> Read?
+      <input type="checkbox" id="read">
+       <input type="submit" value="Add Book" id="addBook">
+    </label>
         </form>
     </div>
+    <div class="list">
 
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
