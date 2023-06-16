@@ -31,11 +31,19 @@ size: 50px;
 }
 
 
+.title {
+        margin-bottom: 8.720;
+    margin-top: 8.720;
+    margin-bottom: 0px;
+    margin-top: 00px;
+}
+
 .container {
     padding-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .bookBtn {
@@ -47,12 +55,14 @@ size: 50px;
 
 
 .list {
-    padding: 15px 15px 15px 15px;
+    margin-top: 50px;
+    padding: 15px 15px 15px 55px;
     display: flex !important;
     align-items: stretch;
 justify-content: start;
 flex-direction: row;
 flex-wrap: wrap;
+height: 50rem;
     /* height: 200px;
     display:flex;
    flex-direction: column;
@@ -98,4 +108,40 @@ align-content: space-around;
     margin:10px 0px 0px 10px ;
     display: flex;
     align-items:flex-start ;
+height: 180px;
+}
+
+.list
+{
+    background-color: #12232E;
+    background-color: #553d67;
+    display: grid;
+    
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin-bottom: 0;
+    justify-content: center;
+    background: -webkit-linear-gradient(left,rgba(29,5,0,.5),rgba(61,0,0,.1) 20%,transparent,rgba(61,0,0,.1) 60%,rgba(29,5,0,.5)),-webkit-linear-gradient(top,transparent,transparent 10px,rgba(255,191,0,.4) 0,rgba(255,191,0,.1) 15px,transparent 50px),-webkit-linear-gradient(top,#543721,#5a3b23 10px,#7b5130 0,#5f432d);
+    background: -moz-linear-gradient(left,rgba(29,5,0,.5),rgba(61,0,0,.1) 20%,transparent,rgba(61,0,0,.1) 60%,rgba(29,5,0,.5)),-moz-linear-gradient(top,transparent 0,transparent 10px,rgba(255,191,0,.4) 10px,rgba(255,191,0,.1) 15px,transparent 50px),-moz-linear-gradient(top,#543721 0,#5a3b23 10px,#7b5130 10px,#5f432d);
+    background: linear-gradient(90deg,rgba(29,5,0,.5),rgba(61,0,0,.1) 20%,transparent,rgba(61,0,0,.1) 60%,rgba(29,5,0,.5)),linear-gradient(180deg,transparent 0,transparent 10px,rgba(255,191,0,.4) 0,rgba(255,191,0,.1) 15px,transparent 50px),linear-gradient(180deg,#543721 0,#5a3b23 10px,#7b5130 0,#5f432d);
+    border: 0;
+    padding: 10px;
+    padding-top: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+
+.myList {
+    display: flex;
+    display: flex;
+    
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
